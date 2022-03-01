@@ -1,0 +1,13 @@
+{
+  "scheduler": "cos",
+  "LR": 0.025,
+  "eta_min": 0.001,
+  "epochs": 250,
+  "warmup": 0,
+  "optim": "SGD",
+  "decay": 0.0005,
+  "momentum": 0.9,
+  "nesterov": 1,
+  "criterion": "Softmax",
+  "batch_size": 64
+}
